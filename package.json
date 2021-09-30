@@ -1,0 +1,29 @@
+{
+  "name": "tutorial_3",
+  "version": "1.0.0",
+  "description": "Tutorial 3 ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w server server/server.js",
+    "compile": "babel src --out-dir public",
+    "watch": "babel src --out-dir public --watch --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Aw",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.25.2",
+    "bootstrap": "^5.1.1",
+    "express": "^4.17.1",
+    "graphql": "^0.13.2",
+    "nodemon": "^2.0.13",
+    "react-router": "^5.2.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5"
+  }
+}
